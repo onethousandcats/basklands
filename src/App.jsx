@@ -7,9 +7,29 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1 className='title'>Into The Basklands</h1>
-    </>
+    <div className="container">
+      <div id="ccc-tag">
+        <img src='public/images/ccc.png' alt="CCC" />
+        <p>Centre per</p>
+        <p>Clairvoyance</p>
+        <p>et Control</p>
+      </div>
+      <h1 className='title'>Basklands</h1>
+      <div className='chapters'>
+        <div className='chapter'>
+          <h2>1.</h2>
+          <h2>The Midlands</h2>
+        </div>
+        <div className='chapter'>
+          <h2>2.</h2>
+          <h2>Malpays</h2>
+        </div>
+        <div className='chapter'>
+          <h2>3.</h2>
+          <h2>The Arclight</h2>
+        </div>
+      </div>
+    </div>
   )
 }
 

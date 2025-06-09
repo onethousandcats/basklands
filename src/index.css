@@ -1,7 +1,8 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -25,7 +26,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -67,9 +67,38 @@ button:focus-visible {
   }
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .title {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
+  text-transform: uppercase;
   font-weight: 500;
-  font-style: normal;
+  letter-spacing: 8px;
+}
+
+#ccc-tag {
+  background: #FFF6B3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2em;
+  border-radius: 10px;
+
+  img {
+    width: 100px;
+    margin-bottom: 1em;
+  }
+
+  p {
+    margin: 2px;
+  }
+}
+
+.chapters {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
