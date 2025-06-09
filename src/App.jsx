@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="container">
       <div id="ccc-tag">
-        <img src='public/images/ccc.png' alt="CCC" />
+        <img src='/images/ccc.png' alt="CCC" />
         <p>Centre per</p>
         <p>Clairvoyance</p>
         <p>et Control</p>
