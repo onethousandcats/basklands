@@ -94,6 +94,7 @@ button:focus-visible {
 
   p {
     margin: 2px;
+    text-transform: uppercase;
   }
 }
 
